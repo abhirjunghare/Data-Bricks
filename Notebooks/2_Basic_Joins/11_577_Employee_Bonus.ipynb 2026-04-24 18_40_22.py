@@ -73,3 +73,7 @@ left join bonus
 on employee.empId=bonus.empId
 where bonus is null or bonus<1000;
 ''').show()
+
+# COMMAND ----------
+
+# modified.
